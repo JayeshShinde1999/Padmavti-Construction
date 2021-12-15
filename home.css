@@ -1,0 +1,13 @@
+.const{
+    color: crimson;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.banner{
+    opacity: .6;
+}

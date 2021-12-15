@@ -1,0 +1,601 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="web.css">
+</head>
+
+<body>
+    <div class="container-fluid"> 
+        <div class="row">
+            <!-- Nav Bar Start -->
+            <div class="col-md-12 " >
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark"  >
+                    <div class="container-fluid">
+                        <a class="navbar-brand" id="nav_bar"
+                            href="https://www.tataprojects.com/offerings/engineering">Padmavti Constructions</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="Home1" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " id="Home1" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" id="Home1" href="#" id="navbarDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">project</a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="project1.html">Project 1</a></li>
+                                        <li><a class="dropdown-item" href="project2.html">Project 2</a></li>
+
+                                        <!-- <li>
+                                            <hr class="dropdown-divider">
+                                        </li> -->
+                                        <li><a class="dropdown-item" href="project2.html"></a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="Home1" href="Contact.html">Contact</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-primary  " type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Nav Bar End -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col mt-1">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="banner2.jfif" class="d-block w-100 img" alt="...">
+                            <p class="banner6">-------Since 1992--------</p>
+                            <h1 class="banner5">WE WILL BE HAPPY TO TAKE</h1>
+                            <h1 class="banner4">CARE OF YOUR WORK</h1>
+                            <button id="btnt" type="button" class="btn btn-outline-warning">Discover Now</button>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="banner4.jfif" class="d-block w-100 img" alt="...">
+                            <h1 class="banner2">EXPERIENCED CONSTRUCTION SOLUTION</h1>
+                            <p class="banner3">Consto is a flexible engineering company website template that works for
+                                many businesses in the space. Construction, building and architect firms are welcome to
+                                take Consto to their total advantage. </p>
+                            <button id="banner1" type="button" class="btn btn-outline-primary">Explore Our Latest
+                                Project</button>
+
+                        </div>
+                        <div class="carousel-item">
+                            <img src="banner.jpg" class="d-block w-100 img" alt="...">
+                            <h3 class="on_img_text">DISCOVER THE COLORFUL WORLD</h3>
+                            <h1 class="on_img2_text">BUILD YOUR DREAM</h1>
+                            <button id="btn5" type="button" class="btn btn-warning ">Call Now</button>
+
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal Start -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col mt-1" width="400px">
+                <button data-bs-target="#book_Now" class="bt1 btn btn-success" data-bs-toggle="modal">Book Now</button>
+                <div class="modal" id="book_Now" tabindex="-1">
+                    <div class="modal-dialog" style=" background-color: #efefef; ">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title  text-primary"
+                                    style="text-shadow: 1px 2px 4px red; font-size: 30px; font-weight: bold;"><u>Book
+                                        Our Dream House</u></h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body Popup_Form">
+                                <label for="Fname">First Name:-</label>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+                                    type="text" id="Fname" name="fname" placeholder="Enter First Name*"><br><br>
+                                <label for="Lname">Last Name:-</label>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+                                    type="text" id="Lname" name="Lname" placeholder="Enter Last Name*"><br><br>
+                                <label for="number">Enter Mobile No:-</label>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" id="number" name="number"
+                                    placeholder="Enter 10-digit Mobile Number*"><br><br>
+                                <label for="email">Enter Email address:-</label>
+                                <input type="email" id="email" name="email"
+                                    placeholder="Enter valid Email Address*"><br><br>
+                                <label for="date">Enter Date:-</label>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+                                    type="date" id="date" name="date"><br><br>
+                                <label for="radio">Flat
+                                    Category:-</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input type="radio" id="radio" name="radio">1BHk &nbsp;&nbsp;
+                                <input type="radio" id="radio" name="radio">2BHk &nbsp;&nbsp;
+                                <input type="radio" id="radio" name="radio">3BHk&nbsp;&nbsp;
+                                <input type="radio" id="radio" name="radio">4BHk &nbsp;&nbsp; <br><br>
+                                <table>
+                                    <tr>
+                                        <th><label for="site">Site Address:-</label>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                                        <td><textarea name="site" id="site" cols="30" rows="4"
+                                                placeholder="Enter Flat Address*"></textarea></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-primary">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mt-1">
+                <button data-bs-target="#Feedback" class="bt1 btn btn-warning" data-bs-toggle="modal">Feedback</button>
+                <div class="modal" id="Feedback" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title  text-primary" style="text-shadow: 1px 2px 4px red;">
+                                    <u><strong>Feedback</strong></u></h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body" style="background-color: #efefef;">
+                                <label for="fname">First Name:-</label>
+                                <input type="text" id="fname" name="name" placeholder="Enter First Name*"><br><br>
+                                <label for="lname">First Name:-</label>
+                                <input type="text" id="lname" name="name" placeholder="Enter Last Name*"><br><br>
+                                <label for="no">First Name:-</label>
+                                <input type="number" id="no" name="Number"
+                                    placeholder="Enter 10-digit mobile Number*"><br><br>
+                                <label for="area">Place:-</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <select name="area" id="area">
+                                    <option value="">Pune</option>
+                                    <option value="">Ahmednagar</option>
+                                    <option value="">Parner</option>
+                                    <option value="">Mumbai</option>
+                                </select><br><br>
+                                <table>
+                                    <tr>
+                                        <th><label for="feedback">feedback:-</label></th>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <td><textarea name="feedback" id="feedback" cols="40" rows="4"
+                                                placeholder="What kind of feedback*"></textarea></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mt-1">
+                <button data-bs-target="#Read_More" class="bt1 btn btn-primary" data-bs-toggle="modal">Read
+                    More</button>
+                <div class="modal" id="Read_More" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title  text-primary">Read More</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body" style="background-color: #efefef;">
+                                <p>The history of building is marked by a number of trends. One is the increasing
+                                    durability of the materials used. Early building materials were perishable, such as
+                                    leaves, branches, and animal hides. Later, more durable natural materials—such as
+                                    clay, stone, and timber—and, finally, synthetic materials—such as brick, concrete,
+                                    metals, and plastics—were used. Another is a quest for buildings of ever greater
+                                    height and span; this was made possible by the development of stronger materials and
+                                    by knowledge of how materials behave and how to exploit them to greater advantage. A
+                                    third major trend involves the degree of control exercised over the interior
+                                    environment of buildings: increasingly precise regulation of air temperature, light
+                                    and sound levels, humidity, odours, air speed, and other factors that affect human
+                                    comfort has been possible. Yet another trend is the change in energy available to
+                                    the construction process, starting with human muscle power and developing toward the
+                                    powerful machinery used today.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-primary">Ok</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal End -->
+    <!-- Card Templates Start -->
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col-4 mt-1" id="card2">
+                <div class="card">
+                    <img src="card1.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Stone</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="https://www.construction.com" class="btn btn-outline-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mt-1" id="card2">
+                <div class="card">
+                    <img src="card2.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Timber</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="https://www.construction.com" class="btn btn-outline-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mt-1" id="card2">
+                <div class="card">
+                    <img src="card31.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Adobe</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="https://www.construction.com" class="btn btn-outline-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Card Template End -->
+        <!-- <div class="container-fluid mt-1" id="foot">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Address</h2>
+                    <p>ShivajiNagar, Pune <br>Mumbai Pune road, <br>Narveer Tanaji Wadi <br>411005</p>
+                </div>
+                <div class="col-md-4 mt-5">
+                    <p>&copy;Copyright, All Right Reversed 2021 <br> Design And Developed By Jayesh</p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Follow on</h2>
+
+                    <a class="mx-2" href="https://facebook.com"><svg xmlns="http://www.w3.org/2000/svg" width="30"
+                            height="30" fill="currentColor" class="bi bi-facebook icon" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                        </svg></a>
+                    <a class="mx-2" href="http://www.whatsapp.com"><svg xmlns="http://www.w3.org/2000/svg" width="30"
+                            height="30" fill="currentColor" class="bi bi-whatsapp icon " viewBox="0 0 16 16">
+                            <path
+                                d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                        </svg></a>
+                    <a class="mx-2" href="http://www.twitter.com"><svg xmlns="http://www.w3.org/2000/svg" width="30"
+                            height="30" fill="currentColor" class="bi bi-twitter icon" viewBox="0 0 16 16">
+                            <path
+                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                        </svg></a>
+                    <a class="mx-2" href="http://www.instagram.com"><svg xmlns="http://www.w3.org/2000/svg" width="30"
+                            height="30" fill="currentColor" class="bi bi-instagram icon" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                        </svg></a>
+                    <a href="http://www.messenger.com"> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                            fill="currentColor" class="bi bi-messenger icon" viewBox="0 0 16 16">
+                            <path
+                                d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z" />
+                        </svg></a>
+
+                </div>
+
+            </div>
+
+        </div> -->
+        <!-- Middle Information Start -->
+
+        <div class="container-fluid">
+            <div class="row mt-1">
+                <div class="col-md-6">
+                    <img src="img1.webp" class="img-fluid img10" alt="...">
+
+                </div>
+                <div class="col-md-6">
+                    <h1 class="mt-5"><b>PROVIDING PERSONALIZED AND
+                            HIGH QUALITY SERVICE </b></h1>
+                    <p class="mt-5">Grass bearing make open multiply that may fly cattle gathering be unto
+                        void moving. Blessed one evening had them heaven
+                        divide said heaven whose brought he. Give It fowl green.</p>
+                    <div class="number-wrapper mt-5">
+                        <div class="single-number" style="float: left;">
+                            <h5 class="counter1"><span class="counter ">15</span>K+</h5>
+                            <p>happy customer</p>
+                        </div>
+                        <div class="single-number" style="float: left; margin-left: 40px;">
+                            <h5 class="counter1"><span class="counter">10</span>K+</h5>
+                            <p>Project Done</p>
+                        </div>
+                        <div class="single-number" style="float: left; margin-left: 40px;">
+                            <h5 class="counter1"><span class="counter">9</span>/<span class="counter">10</span></h5>
+                            <p>Average Rating</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mt-1">
+                    <h1 class="cust1">---CUSTOMER REVIEW---</h1>
+                    <p class="cust">Together female let signs for for fish fowl may first</p>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Card Templates End -->
+
+        <!-- Middle Information End -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="review1.jfif" alt="" width="200px" height="200px" style="border-radius: 50%;">
+                    <h3 class="review">Sonu Sood</h3>
+                    <p class="para"><em>"Specializes In Major Residential Remodels And New Home Construction. Serving
+                        Austin Since 1996. Major Renovations New."</em> </p>
+                </div>
+                <div class="col-md-3">
+                    <img src="review2.jpg" alt="" width="200px" height="200px" style="border-radius: 50%;">
+
+                    <h3 class="review">Rogar Scoot</h3>
+                    <p class="para"><em>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus ad ut cum
+                        nisi sapiente dolores, tenetur aspernatur voluptatem."</em></p>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-center">
+                        <img src="review3.jfif" alt="" width="200px" height="200px" style="border-radius: 50%;">
+
+                    </div>
+                    <h3 class="review">Virat Kholi</h3>
+                    <p class="para"><em>"Specializes In Major Residential Remodels And New Home Construction. Serving
+                        Austin Since 1996. Major Renovations New."</em></p>
+                </div>
+                <div class="col-md-3">
+                    <img src="review4.jfif" alt="" width="200px" height="200px" style="border-radius: 50%;">
+
+                    <h3 class="review">Leonardo</h3>
+                    <p class="para"><em>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, accusamus.
+                        Totam incidunt praesentium sint eum quod deleniti." </em></p>
+                </div>
+            </div>
+        </div>
+        <!-- customer counter Start -->
+
+        <!-- Customer Counter End -->
+        <div class="container-fluid mt-1">
+            <div class="row">
+                <div class="col">
+
+                    <footer class="bg-dark text-white">
+                        <!-- Grid container -->
+                        <div class="container p-4">
+                            <!-- Section: Social media -->
+                            <section class="mb-4  text-center">
+                                <!-- Facebook -->
+                                <a class="btn btn-outline-light btn-floating border-radius ms-2"
+                                    href="https://www.facebook.com" role="button"><svg class="icon-size"
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-facebook" viewBox="0 0 16 16">
+                                        <path
+                                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                    </svg></a>
+
+                                <!-- Twitter -->
+                                <a class="btn btn-outline-light btn-floating ms-2" href="https://www.twitter.com"
+                                    role="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                                        <path
+                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                    </svg></a>
+
+                                <!-- Google -->
+                                <a class="btn btn-outline-light btn-floating ms-2" href="https://www.google.com"
+                                    role="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+                                        <path
+                                            d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z" />
+                                    </svg></a>
+
+                                <!-- Instagram -->
+                                <a class="btn btn-outline-light btn-floating ms-2" href="http://www.instagram.com"
+                                    role="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                    </svg></a>
+
+                                <!-- Linkedin -->
+                                <a class="btn btn-outline-light btn-floating ms-2" href="http://www.Linkedin.com"
+                                    role="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                    </svg></a>
+
+                                <!-- Github -->
+                                <a class="btn btn-outline-light btn-floating mms-2" href="http://github.com"
+                                    role="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                                    </svg></a>
+                            </section>
+                            <!-- Section: Social media -->
+
+                            <!-- Section: Form -->
+                            <section class="">
+                                <form action="">
+                                    <!--Grid row-->
+                                    <div class="row d-flex justify-content-center">
+                                        <!--Grid column-->
+                                        <div class="col-auto">
+                                            <p class="pt-2">
+                                                <strong>Sign up for our newsletter:</strong>
+                                            </p>
+                                        </div>
+                                        <!--Grid column-->
+
+                                        <!--Grid column-->
+                                        <div class="col-md-5 col-12">
+                                            <!-- Email input -->
+                                            <div class="form-outline form-white mb-4">
+                                                <input type="email" id="form5Example21" class="form-control"
+                                                    placeholder="Enter Email Address*" />
+                                                <label class="form-label" for="form5Example21"></label>
+                                            </div>
+                                        </div>
+                                        <!--Grid column-->
+
+                                        <!--Grid column-->
+                                        <div class="col-auto">
+                                            <!-- Submit button -->
+                                            <button type="submit" class="btn btn-outline-light mb-4">
+                                                Subscribe
+                                            </button>
+                                        </div>
+                                        <!--Grid column-->
+                                    </div>
+                                    <!--Grid row-->
+                                </form>
+                            </section>
+                            <!-- Section: Form -->
+
+
+
+                            <!-- Section: Links -->
+                            <section class="">
+                                <!--Grid row-->
+
+                                <div class="row" style="text-align: center;">
+                                    <div class="col-sm-3">
+                                        <h3>Locat us</h3>
+                                        <p>Narveer Tanaji Wadi, <br>In Front Of Sakhar Sankul,<br>Mumbai Pune Road,
+                                            <br>Shivaji Nagar, <br> Pune 411005</p>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <h3>Useful Links</h3>
+
+                                        <a href="">
+                                            <p>Link1</p>
+                                        </a>
+                                        <a href="">
+                                            <p>Link2</p>
+                                        </a>
+                                        <a href="">
+                                            <p>Link3</p>
+                                        </a>
+                                        <a href="">
+                                            <p>Link4</p>
+                                        </a>
+
+                                    </div>
+                                    <div class="col-sm-3 link32">
+                                        <h3>Quick Links</h3>
+
+                                        <a href="">
+                                            <p>About</p>
+                                        </a>
+                                        <a href="">
+                                            <p>Services</p>
+                                        </a>
+                                        <a href="">
+                                            <p>works</p>
+                                        </a>
+                                        <a href="">
+                                            <p>Contact</p>
+                                        </a>
+                                        <!-- <div class="card">
+                                            <img src="my pic.jfif" alt="" id="itvedant" style="border-radius: 40%;" width="150px" height="150px">
+                                            <div class="card-text">
+                                                <h3 style="color: crimson; font-size: 20px;"><strong>Jayesh Shinde</strong></h3>
+                                                <h5 style="color: rgb(212, 209, 209); font-weight: bold; font-size: 20px;">Cs Student</h5>
+                                            </div>
+                                        </div> -->
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <h3>Follow On</h3>
+
+                                        <p>Facebook</p>
+                                        <p>Whatsapp</p>
+                                        <p>Twitter</p>
+                                        <p>Instagram</p>
+
+                                    </div>
+
+                                    <!--Grid column-->
+                                    <!-- </div> -->
+                                </div>
+                                <!--Grid row-->
+                            </section>
+                            <!-- Section: Links -->
+                        </div>
+                        <!-- Grid container -->
+
+                        <!-- Copyright -->
+                        <div class="text-center text-capitalize p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                            © 2021 Copyright all right reserved <br> Design And Developed By Jayesh
+
+                        </div>
+                        <!-- Copyright -->
+                    </footer>
+                </div>
+            </div>
+        </div>
+        <!-- footer Tag End -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

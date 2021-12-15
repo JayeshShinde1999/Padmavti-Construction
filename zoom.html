@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+
+    .card {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .card::before {
+        position: absolute;
+        content: '';
+        width: 80%;
+        height: 220%;
+        background: rgba(red, green, blue, alpha);
+        top: -50%;
+        left: -100%;
+        z-index: 1;
+        transform: rotate(25deg);
+        transform-origin: center top 0;
+        transition: .5s;
+    }
+
+    .card:hover::before {
+        left: 10%;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-text {
+        width: 100%;
+        padding: 0 20px;
+        position: absolute;
+        top: -100%;
+        color: #fff;
+        left: 0;
+        z-index: 2;
+        transition: 1.1s;
+    }
+
+    .card-text h3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .card:hover .card-text{
+    top: 80px;
+}
+#itvedant{
+    width: 200px;
+    height: 200px;
+}
+</style>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="my pic.jfif" alt="" id="itvedant" style="border-radius: 40%;">
+            <div class="card-text">
+                <h3 style="color: crimson; font-size: 20px;"><strong>Jayesh Shinde</strong></h3>
+                <h5 style="color: rgb(212, 209, 209); font-weight: bold; font-size: 20px;">Cs Student</h5>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

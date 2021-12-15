@@ -1,0 +1,489 @@
+
+/* .card {
+    position: relative;
+    overflow: hidden;
+}
+
+.card::before {
+    position: absolute;
+    content: '';
+    width: 80%;
+    height: 220%;
+    background: rgba(red, green, blue, alpha);
+    top: -50%;
+    left: -100%;
+    z-index: 1;
+    transform: rotate(25deg);
+    transform-origin: center top 0;
+    transition: .5s;
+}
+
+.card:hover::before {
+    left: 10%;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-text {
+    width: 100%;
+    padding: 0 20px;
+    position: absolute;
+    top: -100%;
+    color: #fff;
+    left: 0;
+    z-index: 2;
+    transition: 1.1s;
+}
+
+.card-text h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card:hover .card-text{
+top: 80px;
+} */
+.container6{
+    height: auto;
+    width: 20%;
+    overflow: hidden;
+}
+.container6 img{
+    width: 100%;
+    display: block;
+    transition:transform 2s;
+}
+.container6:hover img{
+    transform: scale(1.3);
+}
+#Home1{
+    color: white;
+}
+#Home1:hover{
+    color: red;
+}
+.img{
+    width: 100%;
+    height: 400px;
+}
+.bt1{
+    margin-left: 70px;
+    /* background-color: black;
+    color: white; */
+    line-height: px;
+     width: 200px;
+}
+body{
+    background-color: #cdecdf;
+}
+#nav_bar{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 4px 5px 3px rgb(212, 72, 177);
+    
+}
+.on_img_text{
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.on_img2_text{
+    position: absolute;
+    width: 100%;
+    top: 35%;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    color: rgb(32, 151, 206);
+}
+.on_img2_text:hover{
+    color: red;
+}
+#btn5{
+    position: absolute;
+    top: 60%;
+    margin-left: 45%;
+    
+    
+}
+.banner2{
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
+}
+.banner2:hover{
+    color: yellow;
+}
+.banner3{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+#banner1{
+    position: absolute;
+    top: 60%;
+    margin-left: 40%; 
+}
+.banner5{
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+.banner5:hover{
+    color: rgb(255, 23, 205);
+}
+.banner4{
+    position: absolute;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+.banner4:hover{
+    color: rgb(240, 13, 191);
+}
+.banner6{
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#btnt{
+    position: absolute;
+    top: 60%;
+    margin-left: 45%;
+}
+#foot{
+    background-color: black;
+    color: white;
+}
+.icon{
+    
+    color: white;
+}
+.lorem{
+    text-align: center;
+}
+.women{
+    margin-left: 50px;
+}
+.men{
+    margin-left: 30%;
+}
+.link{
+    margin-left: 30%;
+}
+.Links{
+    margin-left: 30%;
+}
+.img10{
+    margin-left: 15%;
+
+}
+.counter1{
+    font-weight: bold;
+    color: red;
+    font-size: 30px;
+}
+.cust1{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(212, 72, 177);
+}
+.cust{
+    text-align: center;
+}
+imagess{
+border-radius: 30px;
+}
+.review{
+    text-align: center;
+    color: rgb(139, 0, 104);
+    font-weight: bold;
+}
+.para{
+    text-align: center;
+}
+.Popup_Form{
+background-color: #efefef;
+}
+.link32{
+    text-decoration-line: none;
+}
+/* .review468{
+    border-radius: 10%;
+} */
+/*about.html*/
+#aboutbanner{
+    width: 100%;
+    height: 400px;
+}
+.leading{
+    position: absolute;
+    width: 100%;
+    top: 35%;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.leading:hover{
+    color: crimson;
+}
+.work{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.engginear{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(214, 150, 72);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.engginear:hover{
+    color: darkred;
+}
+.enggineras{
+    text-align: center;
+    font-weight: bold;
+}
+.senior_engg{
+    text-align: center;
+}
+.plan{
+    text-align: center;
+    border: red;
+}
+.plan:hover{
+    background-color: rgb(243, 182, 243);
+}
+.jayk{
+    font-weight: bold;
+    font-size: 40px;
+    color: red;
+}
+.hoverimg1{
+    background-color: white;
+}
+.history{
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.company{
+    color: rgb(255, 0, 140);
+}
+.company:hover{
+    color: rgb(104, 238, 133);
+}
+/*Contact.html*/
+.input{
+    line-height: 40px;
+}
+.email{
+    line-height: 40px;
+}
+/*project1.html*/
+.images12{
+    width: 100%;
+    height: 400px;
+}
+#services{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+    color: white;
+    font-size: 70px;
+}
+#services:hover{
+    color: yellow;
+}
+.servimg{
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+/* .servimg{
+ cursor: pointer;
+ transform: scale(1);
+ transition: 0.10s ease-in-out;
+
+}
+.servimg:hover{
+    transform: scale(1.5);
+} */
+/* #container img{
+    height: auto;
+    width: 20%;
+    overflow: hidden;
+}
+#container img{
+    width: 100%;
+    display: block;
+    transition:transform 2s;
+}
+#container:hover img{
+    transform: scale(1.3);
+} */
+/* .container{
+    height: auto;
+    width: 110%;
+    overflow: hidden;
+}
+.container img{
+    width: 100%;
+    display: block;
+    transition:transform 2s;
+}
+.container:hover img{
+    transform: scale(1.3);
+} */
+/*Project.html*/
+#project2{
+    width: 100%;
+    height: 400px;
+}
+.project2{
+    position: absolute;
+    top: 110px;
+    font-size: 50px;
+    margin-left: 5%;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.project2:hover{
+    color: crimson;
+}
+.zoomfade{
+    overflow: hidden;
+}
+#project2{
+    width: 100%;
+    display: block;
+    transition:transform 2s;
+   
+}
+#project2:hover{
+    transform: scale(1.3);
+}
+.Features{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(162, 116, 248);
+}
+.Features:hover{
+    color: crimson;
+}
+.col-md-3{
+    overflow: hidden;
+}
+.zoom{
+    
+    display: block;
+    transition:transform 2s; 
+}
+.zoom:hover{
+    transform: scale(1.3);
+}
+/* .ourproject{
+    width: 250px;
+    height: 300px;
+} */
+.itvedant{
+    width: 300px;
+    height: 300px;
+}
+/* .container{
+    margin-top: 18%;
+}
+.card{
+    position: relative;
+    overflow: hidden;
+}
+.card::before{
+    position: absolute;
+    content: '';
+     width: 80%;
+    height: 220%; 
+    background: rgba(red, green, blue, alpha);
+    top: -50%;
+    left: -100%;
+    z-index: 1;
+    transform: rotate(25deg);
+    transform-origin: center top 0;
+    transition: .5s;
+}
+.card:hover::before{
+    left: 10%;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card-text{
+    width: 100%;
+    padding: 0 20px;
+    position: absolute;
+    top: -100%;
+    color: #fff;
+    left: 0;
+    z-index: 2;
+    transition: 1.1s;
+}
+.card-text h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+/* } 
+.card:hover .card-text{
+    top: 80px;
+} */
+.ourproject{
+    width: 250px;
+    height: 300px;
+    
+}
+.protitle{
+    overflow: hidden;
+   
+}
+.zoom-in-out{
+    
+    width: 100%;
+    display: block;
+  
+    transition:transform 2s;
+   
+}
+.zoom-in-out:hover{
+    transform: scale(1.1);
+}
+.zoom-in-out{
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+   
+}
